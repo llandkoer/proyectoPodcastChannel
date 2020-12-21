@@ -10,7 +10,6 @@
       @extend %btn--hover;
     }
   }
-
   &__paragraph {
     @extend %paragraph;
   }
@@ -35,6 +34,8 @@
 
   &__title {
     @extend %title--white;
+    width: $general-width;
+    margin: $margin;
   }
 }
 
@@ -58,17 +59,20 @@
 }
 
 .container-guests {
+  width: 100vw;
   &__photos {
     display: flex;
     flex-flow: wrap column;
     justify-content: center;
-    &__photo {
-      width: 100%;
-    }
+    width: 100%;
   }
-
+  &__photo {
+    width: 100%;
+  }
   &__title {
     @extend %title;
+    width: $general-width;
+    margin: $margin;
   }
 }
 
@@ -89,6 +93,8 @@
   background: $background-gradient;
   &__button {
     @extend %btn;
+    width: $general-width;
+    margin: $margin;
 
     &:hover {
       @extend %btn--hover;
@@ -97,5 +103,7 @@
 
   &__title {
     @extend %title--white;
+    width: $general-width;
+    margin: $margin;
   }
 }

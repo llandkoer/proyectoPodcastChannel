@@ -24,19 +24,21 @@ html(lang="en")
 					|  pale blue dot
 					span.container-main__point  .
 				p.container-main__paragraph Un podcast que explora el mundo de la programación. Nuevos episodios todos los jueves cada 15 días.
-				a.container-main__button(href="#") CONOCÉ MÁS
+				a(href="#").container-main__button
+					span.container-main__link CONOCÉ MÁS
 			section.container-episodes
 				h2.container-episodes__title Episodios
 				div.container-episodes__episodes
 					<iframe src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 					<iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 					<iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-					<iframe src="https://open.spotify.com/embed-podcast/episode/5mddqHiI96V0ZMdMidn3WW" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					<iframe src="https://open.spotify.com/embed-podcast/episode/1lKaWGX1zNlU8oJNqzFWak" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 			section.container-phone
-				img.container-phone__image(src="../landingUI_desktop_mobile_kit/assets/phone.png" alt="Esto es un teléfono celular")
+				img.container-phone__image(src="./assets/phone.png" alt="Esto es un teléfono celular")
 				article.container-phone__article
 					h2.container-phone__title De dónde venimos
 					p.container-phone__paragraph Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.
+					br
 					p.container-phone__paragraph Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
 			section.container-guests
 				h2.container-guests__title Invitadas/os estelares
@@ -60,7 +62,8 @@ html(lang="en")
 					figcaption Seguridad informática
 			section.container-last
 				h2.container-last__title ¿Querés las últimas novedades?
-				a.container-last__button(href="#") ESCUCHÁ LOS EPISODIOS
+				a(href="#").container-last__button
+					span.container-last__link(href="#") ESCUCHÁ LOS EPISODIOS
 		footer.container-footer
 			span.container-footer__text © 2019— Hello blue pale dot
 			.container-footer__icons

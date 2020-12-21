@@ -1,13 +1,15 @@
 %btn {
   background-color: $light-blue;
+  width: 288px;
+  height: 48px;
   color: $dark-blue;
   font-family: $secondary-font;
   font-weight: 500;
   font-size: 1.8rem;
   text-decoration: none;
-  text-align: center;
-  width: 288px;
-  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 %btn--hover {
   background: $button-gradient;

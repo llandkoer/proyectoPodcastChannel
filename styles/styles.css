@@ -1,13 +1,15 @@
 .container-last__button, .container-main__button {
   background-color: #00f3bb;
+  width: 288px;
+  height: 48px;
   color: #060a24;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 500;
   font-size: 1.8rem;
   text-decoration: none;
-  text-align: center;
-  width: 288px;
-  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-last__button:hover, .container-main__button:hover {
@@ -48,15 +50,15 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0.3%;
-  padding-right: 5.9%;
-  padding-bottom: 0.3%;
-  padding-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  width: 90vw;
 }
 
 .container-main {
   margin: 0 auto;
-  width: 90%;
+  width: 90vw;
   display: flex;
   flex-flow: nowrap column;
   justify-content: space-evenly;
@@ -65,32 +67,61 @@ html {
   background: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
 }
 .container-episodes__episodes {
-  width: 90%;
+  width: 90vw;
   margin: 0 auto;
 }
+.container-episodes__title {
+  width: 90vw;
+  margin: 0 auto;
+}
+
 .container-phone {
   margin: 0 auto;
-  width: 90%;
+  width: 90vw;
 }
 .container-phone__image {
   width: 100%;
+}
+.container-guests {
+  width: 100vw;
 }
 .container-guests__photos {
   display: flex;
   flex-flow: wrap column;
   justify-content: center;
-}
-.container-guests__photos__photo {
   width: 100%;
 }
+.container-guests__photo {
+  width: 100%;
+}
+.container-guests__title {
+  width: 90vw;
+  margin: 0 auto;
+}
+
 .container-topics {
   margin: 0 auto;
-  width: 90%;
+  width: 90vw;
 }
 .container-last {
   margin: 0 auto;
   width: 100%;
   background: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+}
+.container-last__button {
+  width: 90vw;
+  margin: 0 auto;
+}
+.container-last__title {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.container-footer {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
 }
 .container-footer__icons .fab {
   color: #060a24;

@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0.3%;
-  padding-right: 5.9%;
-  padding-bottom: 0.3%;
-  padding-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: $margin;
+  width: $general-width;
 }
