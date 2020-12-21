@@ -1,0 +1,101 @@
+.container-main {
+  margin: $margin;
+  width: $general-width;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: space-evenly;
+  &__button {
+    @extend %btn;
+    &:hover {
+      @extend %btn--hover;
+    }
+  }
+
+  &__paragraph {
+    @extend %paragraph;
+  }
+
+  &__point {
+  }
+
+  &__title {
+    @extend %title;
+  }
+
+  &__world {
+  }
+}
+
+.container-episodes {
+  background: $background-gradient;
+  &__episodes {
+    width: $general-width;
+    margin: $margin;
+  }
+
+  &__title {
+    @extend %title--white;
+  }
+}
+
+.container-phone {
+  margin: $margin;
+  width: $general-width;
+  &__article {
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__paragraph {
+    @extend %paragraph;
+  }
+
+  &__title {
+    @extend %title;
+  }
+}
+
+.container-guests {
+  &__photos {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    &__photo {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    @extend %title;
+  }
+}
+
+.container-topics {
+  margin: $margin;
+  width: $general-width;
+  &__icons {
+  }
+
+  &__title {
+    @extend %title;
+  }
+}
+
+.container-last {
+  margin: $margin;
+  width: 100%;
+  background: $background-gradient;
+  &__button {
+    @extend %btn;
+
+    &:hover {
+      @extend %btn--hover;
+    }
+  }
+
+  &__title {
+    @extend %title--white;
+  }
+}

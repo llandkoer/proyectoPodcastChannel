@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap");
+.container-last__button, .container-main__button {
+  background-color: #00f3bb;
+  color: #060a24;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-decoration: none;
+  text-align: center;
+  width: 288px;
+  height: 48px;
+}
+
+.container-last__button:hover, .container-main__button:hover {
+  background: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
+  color: #fff;
+}
+
+.container-phone__paragraph, .container-main__paragraph {
+  color: #060a24;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.4rem;
+}
+
+.container-topics__title, .container-guests__title, .container-phone__title, .container-main__title {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 3.6rem;
+  color: #060a24;
+}
+
+.container-last__title, .container-episodes__title {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 3.6rem;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.3%;
+  padding-right: 5.9%;
+  padding-bottom: 0.3%;
+  padding-left: 5%;
+}
+
+.container-main {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: space-evenly;
+}
+.container-episodes {
+  background: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+}
+.container-episodes__episodes {
+  width: 90%;
+  margin: 0 auto;
+}
+.container-phone {
+  margin: 0 auto;
+  width: 90%;
+}
+.container-phone__image {
+  width: 100%;
+}
+.container-guests__photos {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+}
+.container-guests__photos__photo {
+  width: 100%;
+}
+.container-topics {
+  margin: 0 auto;
+  width: 90%;
+}
+.container-last {
+  margin: 0 auto;
+  width: 100%;
+  background: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+}
+.container-footer__icons .fab {
+  color: #060a24;
+}

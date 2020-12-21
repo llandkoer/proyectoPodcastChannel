@@ -1,0 +1,9 @@
+.container-footer {
+  &__text {
+  }
+  &__icons {
+    .fab {
+      color: $dark-blue;
+    }
+  }
+}
