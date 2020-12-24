@@ -22,11 +22,15 @@
   }
 
   &__world {
+    text-decoration: line-through;
   }
 }
 
 .container-episodes {
   background: $background-gradient;
+  clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+  height: 1203.5px;
+  z-index: -9999;
   &__episodes {
     width: $general-width;
     margin: $margin;

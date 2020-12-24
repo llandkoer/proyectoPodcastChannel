@@ -5,19 +5,33 @@ html(lang="en")
 		meta(name="viewport" content="width=device-width, initial-scale=1.0")
 		meta(name="description" content="Un podcast que explora el mundo de la programación. Nuevos episodios todos los jueves cada 15 días.")
 		meta(name="robots" content="index,follow")
-		link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css")
 		link(rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon")
 		link(rel="preconnect" href="https://fonts.gstatic.com")
-		link(href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet")
-		link(href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet")
+		link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap")
+		link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap")
+		link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css")
 		link(rel="stylesheet" href="./styles/styles.min.css")
 		link(rel="stylesheet" href="./styles/desktop.min.css" media="screen and (min-width: 1220px)")
 		title Blue dot
-	body.body
+	body
 		header.container-header
 			img(src="./assets/logo.svg" alt="Logo del podcast")
-			<i class="fas fa-bars"></i>
-		main.main
+			nav.container-header__nav
+				div.container-header__menu
+					input.container-header__input(type="checkbox")
+					span.container-header__top-line
+					span.container-header__middle-line
+					span.container-header__bottom-line
+					ul.container-header__list
+						li.container-header__item
+							a.container-header__link(href="#") EPISODIOS
+						li.container-header__item
+							a.container-header__link(href="#") NOSOTROS
+						li.container-header__item
+							a.container-header__link(href="#") ENTREVISTAS
+						li.container-header__item
+							a.container-header__link(href="#") TÓPICOS
+		main
 			section.container-main
 				h1.container-main__title Hello
 					span.container-main__world  world
