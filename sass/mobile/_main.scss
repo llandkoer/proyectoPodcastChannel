@@ -1,24 +1,27 @@
 .container-main {
-  margin: $margin;
-  width: $general-width;
+  width: 90%;
   display: flex;
   flex-flow: nowrap column;
-  justify-content: space-evenly;
+  margin: 29px auto;
+
   &__button {
     @extend %btn;
+    margin-top: 49px;
     &:hover {
       @extend %btn--hover;
     }
   }
   &__paragraph {
     @extend %paragraph;
-  }
-
-  &__point {
+    margin-top: 16px;
+    letter-spacing: 0;
+    line-height: 2.2rem;
   }
 
   &__title {
     @extend %title;
+    letter-spacing: 0;
+    line-height: 4.2rem;
   }
 
   &__world {
@@ -27,6 +30,8 @@
 }
 
 .container-episodes {
+  margin-top: 24px;
+  width: 100%;
   background: $background-gradient;
   clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
   height: 1203.5px;
