@@ -7,6 +7,7 @@
   &__button {
     @extend %btn;
     margin-top: 49px;
+    align-self: center;
     &:hover {
       @extend %btn--hover;
     }
@@ -22,6 +23,7 @@
     @extend %title;
     letter-spacing: 0;
     line-height: 4.2rem;
+    font-weight: 400;
   }
 
   &__world {
@@ -30,80 +32,133 @@
 }
 
 .container-episodes {
-  margin-top: 24px;
   width: 100%;
+  height: auto;
+  margin-top: 24px;
+  padding-top: 64px;
+  padding-bottom: 143.5px;
   background: $background-gradient;
-  clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
-  height: 1203.5px;
+  clip-path: polygon(0 2.5%, 100% 0, 100% 97.5%, 0 100%);
   z-index: -9999;
+
   &__episodes {
     width: $general-width;
     margin: $margin;
+
+    iframe {
+      width: 100%;
+      height: 225px;
+    }
   }
 
   &__title {
     @extend %title--white;
     width: $general-width;
     margin: $margin;
+    margin-bottom: 21px;
+    font-weight: 400;
   }
 }
 
 .container-phone {
   margin: $margin;
   width: $general-width;
+  position: relative;
+  padding-top: 425px;
   &__article {
   }
 
   &__image {
     width: 100%;
+    position: absolute;
+    top: -100px;
+    left: calc(50% - 50%);
   }
 
   &__paragraph {
     @extend %paragraph;
+    line-height: 2.2rem;
   }
 
   &__title {
     @extend %title;
+    font-weight: 400;
+    line-height: 4.2rem;
+    margin-bottom: 8px;
   }
 }
 
 .container-guests {
-  width: 100vw;
+  margin-top: 54px;
+  display: flex;
+  flex-flow: nowrap column;
   &__photos {
-    display: flex;
-    flex-flow: wrap column;
-    justify-content: center;
     width: 100%;
   }
   &__photo {
     width: 100%;
+    margin: $margin;
   }
   &__title {
     @extend %title;
     width: $general-width;
     margin: $margin;
+    margin-bottom: 14px;
+    font-weight: 400;
   }
 }
 
 .container-topics {
-  margin: $margin;
-  width: $general-width;
+  width: 90%;
+  height: auto;
+  margin-top: 48px;
+
   &__icons {
+    margin-top: 37px;
+    text-align: center;
+
+    img {
+      display: block;
+      width: 104px;
+      height: 104px;
+      margin: 0 auto;
+    }
+
+    span {
+      /*margin: 0 auto;*/
+      margin-top: 13px;
+      margin-bottom: 36px;
+      font-family: $primary-font;
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: $dark-blue;
+    }
   }
 
   &__title {
     @extend %title;
+    font-weight: 400;
+    line-height: 4.2rem;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
 .container-last {
-  margin: $margin;
+  display: flex;
+  flex-flow: nowrap column;
   width: 100%;
+  height: auto;
+  padding: 0 16px;
   background: $background-gradient;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  text-align: center;
+
   &__button {
     @extend %btn;
     width: $general-width;
-    margin: $margin;
+    margin-bottom: 67px;
+    padding: 13px 43px;
 
     &:hover {
       @extend %btn--hover;
@@ -113,6 +168,7 @@
   &__title {
     @extend %title--white;
     width: $general-width;
-    margin: $margin;
+    margin-top: 64px;
+    margin-bottom: 32px;
   }
 }
