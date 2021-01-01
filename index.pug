@@ -23,13 +23,13 @@ html(lang="en")
 					span.container-header__bottom-line
 					ul.container-header__list
 						li.container-header__item
-							a.container-header__link(href="#") EPISODIOS
+							a.container-header__link(href="#episodes") EPISODIOS
 						li.container-header__item
-							a.container-header__link(href="#") NOSOTROS
+							a.container-header__link(href="#us") NOSOTROS
 						li.container-header__item
-							a.container-header__link(href="#") ENTREVISTAS
+							a.container-header__link(href="#guests") ENTREVISTAS
 						li.container-header__item
-							a.container-header__link(href="#") TÓPICOS
+							a.container-header__link(href="#topics") TÓPICOS
 		main
 			section.container-main
 				h1.container-main__title Hello
@@ -37,23 +37,23 @@ html(lang="en")
 					|  pale blue dot
 					span.container-main__point  .
 				p.container-main__paragraph Un podcast que explora el mundo de la programación. Nuevos episodios todos los jueves cada 15 días.
-				a.container-main__button(href="#") CONOCÉ MÁS
+				a.container-main__button(href="#us") CONOCÉ MÁS
 			section.container-episodes
-				h2.container-episodes__title Episodios
+				h2.container-episodes__title#episodes Episodios
 				div.container-episodes__episodes
-					<iframe src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					<iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 					<iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 					<iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-					<iframe src="https://open.spotify.com/embed-podcast/episode/1lKaWGX1zNlU8oJNqzFWak" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					<iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 			section.container-phone
 				img.container-phone__image(src="./assets/phone.png" alt="Esto es un teléfono celular")
 				article.container-phone__article
-					h2.container-phone__title De dónde venimos
+					h2.container-phone__title#us De dónde venimos
 					p.container-phone__paragraph Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.
 					br
 					p.container-phone__paragraph Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
 			section.container-guests
-				h2.container-guests__title Invitadas/os estelares
+				h2.container-guests__title#guests Invitadas/os estelares
 				figure.container-guests__photos
 					img.container-guests__photo(src="./assets/grace-hopper.png" alt="Esto es una foto de Grace Hopper")
 					img.container-guests__photo(src="./assets/Katie-Bouman.png" alt="Esto es un foto de Katie Bouman")
@@ -62,7 +62,7 @@ html(lang="en")
 					img.container-guests__photo(src="./assets/Computer-operators-with-an-Eniac-the-world’s-first-programmable-general-purpose-computer.png" alt="Esto es una foto de Eniac")
 					img.container-guests__photo(src="./assets/susan-kare.png" alt="Esto es una foto de Susan Kare")
 			section.container-topics
-				h2.container-topics__title Algunos de nuestros temas
+				h2.container-topics__title#topics Algunos de nuestros temas
 				figure.container-topics__icons
 					img(src="./assets/icon1.svg" alt="Primer ícono")
 					span Trabajo remoto
@@ -74,8 +74,8 @@ html(lang="en")
 					span Seguridad informática
 			section.container-last
 				h2.container-last__title ¿Querés las últimas novedades?
-				a(href="#").container-last__button
-					span.container-last__link(href="#") ESCUCHÁ LOS EPISODIOS
+				a(href="#episodes").container-last__button
+					span.container-last__link ESCUCHÁ LOS EPISODIOS
 		footer.container-footer
 			span.container-footer__text © 2019— Hello blue pale dot
 			.container-footer__icons

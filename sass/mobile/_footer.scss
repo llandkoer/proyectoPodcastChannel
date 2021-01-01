@@ -6,7 +6,7 @@
   padding-bottom: 31px;
 
   &__text {
-    display:flex;
+    display: flex;
     flex-flow: nowrap row;
     justify-content: center;
     font-family: $secondary-font;
@@ -21,7 +21,7 @@
     flex-flow: nowrap row;
     justify-content: space-evenly;
     align-items: center;
-    width: 300px;
+    width: 80%;
     margin: 0 auto;
     margin-top: 16px;
 
