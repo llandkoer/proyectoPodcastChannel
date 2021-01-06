@@ -1,0 +1,23 @@
+.container-footer {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 31px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__text {
+    font-size: 1.6rem;
+  }
+
+  &__icons {
+    width: 200px;
+    margin: unset;
+    margin-top: unset;
+
+    .fab {
+      font-size: 1.8rem;
+      margin-left: 36px;
+    }
+  }
+}

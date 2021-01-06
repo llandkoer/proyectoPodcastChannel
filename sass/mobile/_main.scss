@@ -19,6 +19,10 @@
     line-height: 2.2rem;
   }
 
+  &__paragraph-desktop{
+    display: none;
+  }
+
   &__title {
     @extend %title;
     letter-spacing: 0;
@@ -38,7 +42,7 @@
   padding-top: 64px;
   padding-bottom: 143.5px;
   background: $background-gradient;
-  clip-path: polygon(0 2.5%, 100% 0, 100% 97.5%, 0 100%);
+  clip-path: polygon(0 4.5%,100% 0,100% 95.5%,0 100%);
   z-index: -9999;
 
   &__episodes {
@@ -47,10 +51,11 @@
 
     iframe {
       display: block;
-      margin: 0 auto;
-      margin-bottom: 11px;
       width: 100%;
       max-width: 584px;
+      height: 225px;
+      margin: 0 auto;
+      margin-bottom: -45px;
       overflow-y: hidden;
     }
   }

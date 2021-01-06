@@ -1,0 +1,142 @@
+.container-main {
+  padding: 120px 100px 5px 200px;
+  margin: 0 auto;
+  width: 100%;
+
+  &__title {
+    font-size: 6.4rem;
+  }
+
+  &__point {
+    color: #0000ec;
+  }
+  &__paragraph-desktop {
+    display: block;
+    max-width: 628px;
+    margin-top: 16px;
+    color: $dark-blue;
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  &__paragraph {
+    display: none;
+  }
+
+  &__button {
+    align-self: unset;
+    width: 226px;
+    height: 56px;
+    padding: 16px 59px;
+    font-size: 1.8rem;
+  }
+}
+
+.container-episodes {
+  padding-top: 186px;
+  padding-bottom: 232.6px;
+
+  &__episodes {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+
+    iframe {
+      height: 232px;
+      margin: unset;
+      margin-right: 60px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 26px;
+    font-size: 4.8rem;
+    padding-left: 200px;
+  }
+}
+
+.container-phone {
+  height: 653px;
+  padding-top: 120px;
+  padding-right: 10%;
+  padding-left: 50%;
+
+  &__image {
+    width: 457.6px;
+    height: 660px;
+    max-width: unset;
+    max-height: unset;
+  }
+
+  &__article {
+    max-width: 464px;
+  }
+
+  &__paragraph {
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+  }
+
+  &__title {
+    padding-top: unset;
+    margin-bottom: 24px;
+    line-height: 6.2rem;
+    font-size: 4.8rem;
+  }
+}
+
+.container-guests {
+  margin-top: 54px;
+  &__photos {
+    width: 100%;
+    font-size: 0;
+  }
+  &__photo {
+    display: inline-block;
+    width: 33.3333333333333333333333333333%;
+  }
+  &__title {
+    margin-bottom: 36px;
+    font-size: 4.8rem;
+    font-weight: 400;
+    padding-left: 150px;
+  }
+}
+
+.container-topics {
+  h2 {
+    padding-left: 90px;
+    font-size: 4.8rem;
+    margin-bottom: 56px;
+  }
+
+  &__icons {
+    margin: 0 auto;
+    margin-top: 37px;
+    text-align: center;
+    display: flex;
+    max-width: 80%;
+    justify-content: space-evenly;
+
+    .card {
+      span {
+        max-width: 220px;
+      }
+    }
+  }
+}
+
+.container-last {
+  &__button {
+    width: 345px;
+    height: 56px;
+    padding: 16px 59px;
+    font-size: 1.8rem;
+  }
+
+  &__title {
+    font-size: 4.8rem;
+  }
+}

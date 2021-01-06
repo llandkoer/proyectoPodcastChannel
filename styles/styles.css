@@ -20,6 +20,7 @@
   color: #060a24;
   font-family: "IBM Plex Mono", monospace;
   font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .container-topics__title, .container-guests__title, .container-phone__title, .container-main__title {
@@ -148,6 +149,9 @@ body {
   letter-spacing: 0;
   line-height: 2.2rem;
 }
+.container-main__paragraph-desktop {
+  display: none;
+}
 .container-main__title {
   letter-spacing: 0;
   line-height: 4.2rem;
@@ -164,7 +168,7 @@ body {
   padding-top: 64px;
   padding-bottom: 143.5px;
   background: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
-  clip-path: polygon(0 2.5%, 100% 0, 100% 97.5%, 0 100%);
+  clip-path: polygon(0 4.5%, 100% 0, 100% 95.5%, 0 100%);
   z-index: -9999;
 }
 .container-episodes__episodes {
@@ -173,10 +177,11 @@ body {
 }
 .container-episodes__episodes iframe {
   display: block;
-  margin: 0 auto;
-  margin-bottom: 11px;
   width: 100%;
   max-width: 584px;
+  height: 225px;
+  margin: 0 auto;
+  margin-bottom: -45px;
   overflow-y: hidden;
 }
 .container-episodes__title {

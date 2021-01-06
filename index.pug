@@ -10,7 +10,7 @@ html(lang="en")
 		link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap")
 		link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css")
 		link(rel="stylesheet" href="./styles/styles.min.css")
-		link(rel="stylesheet" href="./styles/desktop.min.css" media="screen and (min-width: 1220px)")
+		link(rel="stylesheet" href="./styles/desktop.min.css" media="screen and (min-width: 1040px)")
 		title Blue dot
 	body
 		header.container-header
@@ -32,11 +32,12 @@ html(lang="en")
 							a.container-header__link(href="#topics") TÓPICOS
 		main
 			section.container-main
-				h1.container-main__title Hello
-					span.container-main__world  world
+				h1.container-main__title Hello 
+					span.container-main__world world
 					|  pale blue dot
-					span.container-main__point  .
+					span.container-main__point .
 				p.container-main__paragraph Un podcast que explora el mundo de la programación. Nuevos episodios todos los jueves cada 15 días.
+				p.container-main__paragraph-desktop El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.
 				a.container-main__button(href="#us") CONOCÉ MÁS
 			section.container-episodes
 				h2.container-episodes__title#episodes Episodios
@@ -63,15 +64,19 @@ html(lang="en")
 					img.container-guests__photo(src="./assets/susan-kare.png" alt="Esto es una foto de Susan Kare")
 			section.container-topics
 				h2.container-topics__title#topics Algunos de nuestros temas
-				figure.container-topics__icons
-					img(src="./assets/icon1.svg" alt="Primer ícono")
-					span Trabajo remoto
-					img(src="./assets/icon2.svg" alt="Segundo ícono")
-					span Repensando la progración
-					img(src="./assets/icon3.svg" alt="Tercer ícono")
-					span Bases del código
-					img(src="./assets/icon4.svg" alt="Cuarto ícono")
-					span Seguridad informática
+				section.container-topics__icons
+					.card
+						img(src="./assets/icon1.svg" alt="Primer ícono")
+						span Trabajo remoto
+					.card
+						img(src="./assets/icon2.svg" alt="Segundo ícono")
+						span Repensando la programación
+					.card
+						img(src="./assets/icon3.svg" alt="Tercer ícono")
+						span Bases del código
+					.card
+						img(src="./assets/icon4.svg" alt="Cuarto ícono")
+						span Seguridad informática
 			section.container-last
 				h2.container-last__title ¿Querés las últimas novedades?
 				a(href="#episodes").container-last__button

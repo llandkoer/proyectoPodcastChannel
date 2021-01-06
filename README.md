@@ -11,7 +11,7 @@ Mi objetivo con este proyecto fue replicar el esquema laboral de un Front-End De
 
 - Pug
 - HTML
-- Sass (scss)
+- Sass (.scss)
 - CSS
 - Git
 
