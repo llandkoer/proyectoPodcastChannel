@@ -84,11 +84,11 @@
   display: flex;
   flex-flow: wrap row;
   justify-content: center;
+  gap: 72px;
 }
 .container-episodes__episodes iframe {
   height: 232px;
   margin: unset;
-  margin-right: 60px;
 }
 .container-episodes__title {
   margin-bottom: 26px;

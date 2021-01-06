@@ -42,11 +42,11 @@
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
+    gap: 72px;
 
     iframe {
       height: 232px;
       margin: unset;
-      margin-right: 60px;
     }
   }
 
