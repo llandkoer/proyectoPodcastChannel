@@ -64,7 +64,7 @@ html(lang="en")
 					img.container-guests__photo(src="./assets/susan-kare.png" alt="Esto es una foto de Susan Kare")
 			section.container-topics
 				h2.container-topics__title#topics Algunos de nuestros temas
-				section.container-topics__icons
+				.container-topics__icons
 					.card
 						img(src="./assets/icon1.svg" alt="Primer ícono")
 						span Trabajo remoto
@@ -84,8 +84,13 @@ html(lang="en")
 		footer.container-footer
 			span.container-footer__text © 2019— Hello blue pale dot
 			.container-footer__icons
-				<i class="fab fa-spotify"></i>
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-twitter"></i>
-				<i class="fab fa-facebook"></i>
-				<i class="fab fa-telegram"></i>
+				a(href="https://www.spotify.com/co/" target="_blank")
+					<i class="fab fa-spotify"></i>
+				a(href="https://www.instagram.com/" target="_blank")
+					<i class="fab fa-instagram"></i>
+				a(href="https://twitter.com/?lang=es" target="_blank")
+					<i class="fab fa-twitter"></i>
+				a(href="https://www.facebook.com/" target="_blank")
+					<i class="fab fa-facebook"></i>
+				a(href="https://web.telegram.org/#/login" target="_blank")
+					<i class="fab fa-telegram"></i>

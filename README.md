@@ -18,3 +18,5 @@ Mi objetivo con este proyecto fue replicar el esquema laboral de un Front-End De
 ## Estado:
 
 Terminado en su versión mobile y desktop pero con oportunidades de añadir version intermedia para dispositivos tipo tablets y de ser mejorado con conocimientos que vaya adquiriendo en el futuro.
+
+[Ver proyecto.](https://llandkoer.github.io/proyectoPodcastChannel/ "Ver proyecto.")
