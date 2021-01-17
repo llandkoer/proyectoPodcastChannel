@@ -19,7 +19,7 @@
     line-height: 2.2rem;
   }
 
-  &__paragraph-desktop{
+  &__paragraph-desktop {
     display: none;
   }
 
@@ -42,7 +42,7 @@
   padding-top: 64px;
   padding-bottom: 143.5px;
   background: $background-gradient;
-  clip-path: polygon(0 4.5%,100% 0,100% 95.5%,0 100%);
+  clip-path: polygon(0 4.5%, 100% 0, 100% 95.5%, 0 100%);
   z-index: -9999;
 
   &__episodes {
@@ -97,6 +97,10 @@
     padding-top: 450.5px;
     font-weight: 400;
     line-height: 4.2rem;
+  }
+
+  .validator {
+    display: none;
   }
 }
 
