@@ -1,22 +1,16 @@
-# proyectoPodcastChannel 🔊
+# Podcast Channel 🎙🔊
 
-Este es un proyecto en el cual construí una página web estática y responsive utilizando código **HTML**, **CSS** y algunos de sus preprocesadores (**Pug** y **Sass** respectivamente).
+![Logo](https://i.imgur.com/yQp4Rxf.png "Logo")
 
-Desde el sitio, vas a poder escuchar podcasts reales que estarán embebidos junto con imágenes y texto relacionados a su contenido. Trabajé con una visión **mobile first**, por lo que comencé por la vista mobile, pero lo adopté a la responsividad de pantallas más grandes para que funcione en todas ellas.
+Landing page of a podcast channel. Content playback functionalities, navigation, compatibility with multiple browsers and devices.
 
-Mi objetivo con este proyecto fue replicar el esquema laboral de un Front-End Developer. Además, pude entender cómo funciona **Git** y **Github** e implementar esos conocimientos en este repositorio.
+## Built With
 
+* HTML - Hypertext Markup Language
+* CSS - Cascading Style Sheets
+* [Sass](https://sass-lang.com/) - CSS preprocessor
+* [Pug](https://pugjs.org/api/getting-started.html) - Template engine
 
-## Tecnologías:
+## Author
 
-- Pug
-- HTML
-- Sass (.scss)
-- CSS
-- Git
-
-## Estado:
-
-Terminado en su versión mobile y desktop pero con oportunidades de añadir version intermedia para dispositivos tipo tablets y de ser mejorado con conocimientos que vaya adquiriendo en el futuro.
-
-[Ver proyecto.](https://llandkoer.github.io/proyectoPodcastChannel/ "Ver proyecto.")
+* **Luis Landkoer** - [llandkoer](https://github.com/llandkoer)
