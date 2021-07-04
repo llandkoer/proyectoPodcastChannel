@@ -13,4 +13,4 @@ Landing page of a podcast channel. Content playback functionalities, navigation,
 
 ## Author
 
-* **Luis Landkoer** - [llandkoer](https://github.com/llandkoer)
+* **Luis Landkoer** - [llandkoer](https://github.com/llandkoer) 
